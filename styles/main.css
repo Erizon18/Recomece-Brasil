@@ -1,0 +1,37 @@
+:root{
+    font-size: 16px;
+    --blue-primary-color: (#51A4F1);
+    --blue-secondary-color: (#1060AB);
+    --text-color: (#000000);
+    --background-card-color: (#ffffff);
+    --background-color: (#FAFAFA);
+}
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+button{
+    padding: 1rem;
+    border-radius: .625rem;
+
+    background-color: #ffffff;
+
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}

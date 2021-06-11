@@ -1,0 +1,42 @@
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .nav-bar{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+header .nav-bar .links{
+    border-right: 1px solid #000;
+}
+
+header .nav-bar .links ul{
+    display: flex;
+}
+
+.links ul li a, .header-button{
+    margin: 0 1rem;
+}
+
+.links ul li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.header-button{
+    color: #fff;
+    background-color: #51A4F1;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: .75rem;
+}

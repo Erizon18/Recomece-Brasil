@@ -1,0 +1,260 @@
+.header-main{
+    /*background-image: url();*/
+
+    background-color: blue;
+    color: #fff;
+}
+
+.banner{
+    width: 80%;
+    margin: auto;
+}
+
+.banner h3{
+    margin-top: 5rem;
+    margin-bottom: 2.25rem;
+
+    font-weight: 700;
+}
+
+.banner h4{
+    margin-bottom: 3.75rem;
+
+    font-weight: 500;
+}
+
+.banner button{
+    margin-bottom: 4rem;
+
+    color: #51A4F1;
+}
+
+.carrossel{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 1.25rem;
+    height: 31rem;
+
+    overflow: hidden;
+    color: #fff;
+    
+    position: relative;
+}
+
+.carrossel img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.carrossel h4, .carrossel h5{
+    margin-left: 4.5rem;
+    
+    font-weight: 500;
+}
+
+.carrossel h4{
+    margin-top: 3rem;
+
+    font-size: 28px;
+}
+
+.carrossel h5{
+    margin-top: 1rem;
+
+    font-size: 22px;
+}
+
+.news{
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 2.125rem;
+    margin-bottom: 3rem;
+}
+
+h3 .blue-text{
+    color: #51A4F1;
+}
+
+.news .noticia-area{
+    margin: 0 4.25rem;
+}
+
+.noticia{
+    
+    margin-bottom: 3rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+
+    background-color: #fff;
+
+    display: flex;   
+}
+
+.noticia .news-photo{
+    width: 25rem;
+    height: 15rem;
+}
+
+.noticia .content{
+    padding-left: 4.125rem;
+    padding-right: 2.25rem; 
+
+    display: flex;
+    flex-direction: column;
+
+    color: #000;
+}
+
+.noticia .content h5{
+    margin-top: 1.5rem;
+    margin-bottom: 1.25rem;
+
+    color: #1060AB;
+    font-weight: 500;
+    font-size: 1.375rem;
+}
+
+.noticia .content h4{
+    margin-bottom: 0.75rem;
+
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.noticia .content p{
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.875;
+}
+
+.noticia .content .date{
+    display: flex;
+    align-content: center;
+    height: 1.5rem;
+
+    color: #757575;
+}
+
+.noticia .content .date .relogio-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.news h5{
+    margin-bottom: 4.25rem;
+
+    font-weight: 500;
+    font-size: 1.375rem;
+}
+
+.news h5 a{
+    color: #51A4F1;
+}
+
+.servicos{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.servicos h3{
+    margin-bottom: 3rem;
+
+    font-weight: 700;
+}
+
+.servicos-area{
+    margin: 0 4.25rem;
+    display: flex;
+}
+
+.servicos-area > :first-child{
+    margin-right: 2rem;
+}
+
+.servico{
+    width: 100%;
+    padding: 1.75rem;
+
+    background: #fff;
+    border-radius: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servico .imagem-servico{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.servico h4{
+    margin-bottom: 0.75rem;
+
+    color: #51A4F1;
+
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.servico p{
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+.duvidas{
+    margin-bottom: 2rem;
+    position: relative;
+    height: 18rem;
+    overflow: hidden;
+
+    color: #fff;
+}
+
+.duvidas .duvidas-imagem{
+    width: 100%;
+    max-height: initial;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.duvidas h4, .duvidas p{
+    text-align: center;
+}
+
+.duvidas h4{
+    margin-top: 4.25rem;
+
+    font-weight: 700;
+    font-size: 2.125rem;
+}
+
+.duvidas p{
+    margin-top: 1.5rem;
+
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.duvidas .button{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
