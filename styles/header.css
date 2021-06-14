@@ -28,9 +28,15 @@ header .nav-bar .links ul{
 }
 
 .links ul li a{
+    color: black;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+
+.links ul li a:hover{
+    color: #51A4F1;
+}
+
 
 .header-button{
     color: #fff;

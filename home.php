@@ -87,6 +87,5 @@
                 <button>Veja as dúvidas frequentes</button>
             </div>
         </div>
-        <div class="col-12">Olá</div>
     </main>
-<?php get_footer();?>
+<?php get_footer();

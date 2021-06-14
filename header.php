@@ -11,12 +11,12 @@
 </head>
 <body>
     <header>
-        <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg"/>
+        <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/logoHeader.svg"/>
         <div class="nav-bar">
             <div class="links">
                 <ul>
-                    <li><a>Home</li></a></li>
-                    <li><a>Quem somos</a></li>
+                    <li><a href="http://localhost/wp/wordpress/">Home</li></a></li>
+                    <li><a href="http://localhost/wp/wordpress/57-2/">Quem somos</a></li>
                     <li><a>Serviços</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contato</a></li>
