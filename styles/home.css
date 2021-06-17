@@ -1,13 +1,20 @@
 .header-main{
-    /*background-image: url();*/
+    position: relative;
+    overflow: hidden;
 
-    background-color: blue;
     color: #fff;
 }
 
 .banner{
     width: 80%;
     margin: auto;
+    
+}
+
+.header-main img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner h3{
@@ -33,7 +40,6 @@
     width: 80%;
     margin: auto;
     margin-top: 3rem;
-    margin-bottom: 3rem;
     border-radius: 1.25rem;
     height: 31rem;
 
@@ -43,28 +49,98 @@
     position: relative;
 }
 
+.carrossel a.disabled{
+    pointer-events: none;
+}
+
 .carrossel img{
     position: absolute;
-    z-index: -1;
     width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    z-index: -1;
+
+    transition: transform .5s, opacity .5s, z-index .5s;
 }
 
-.carrossel h4, .carrossel h5{
-    margin-left: 4.5rem;
-    
-    font-weight: 500;
+.carrossel img.initial,
+.carrossel img.active {
+  opacity: 1;
+  position: relative;
+  z-index: 8;
 }
 
-.carrossel h4{
-    margin-top: 3rem;
-
-    font-size: 28px;
+.carrossel img.prev,
+.carrossel img.next {
+  z-index: 9;
+}
+.carrossel img.prev {
+  transform: translateX(-100%); /* Move 'prev' item to the left */
+}
+.carrossel img.next {
+  transform: translateX(100%); /* Move 'next' item to the right */
 }
 
-.carrossel h5{
-    margin-top: 1rem;
+.carrossel-button-prev,
+.carrossel-button-next {
+  position: absolute;
+  top:50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: #FFF;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  cursor: pointer; 
+  z-index: 10; /* Sit on top of everything */
+  border: 1px solid black;
+}
+.carrossel-button-prev {
+  left:0;
+}
+.carrossel-button-next {
+  right:0;
+}
+.carrossel-button-prev::after,
+.carrossel-button-next::after {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 54%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.carrossel-button-next::after {
+  left: 47%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
 
-    font-size: 22px;
+.carrossel-pontos{
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    z-index: 11;
+
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel-ponto{
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 1rem;
+    border-radius: 30rem;
+    background-color: #D0D5DB;
+
+    opacity: 0.7;
+}
+
+.carrossel-ponto.active{
+    background-color: #FFF;
 }
 
 .news{
@@ -80,7 +156,10 @@ h3{
 
 h3 .blue-text{
     color: #51A4F1;
-    font-weight: bold;
+}
+
+.news{
+    margin-top: 3rem;
 }
 
 .news .noticia-area{
@@ -219,6 +298,7 @@ h3 .blue-text{
 }
 
 .duvidas{
+    margin-bottom: 2rem;
     position: relative;
     height: 18rem;
     overflow: hidden;
@@ -257,4 +337,3 @@ h3 .blue-text{
     display: flex;
     justify-content: center;
 }
-

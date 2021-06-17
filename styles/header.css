@@ -17,10 +17,15 @@ header .nav-bar{
 
 header .nav-bar .links{
     border-right: 1px solid #000;
+
+    display: flex;
+    align-items: center;
 }
 
 header .nav-bar .links ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links ul li a, .header-button{

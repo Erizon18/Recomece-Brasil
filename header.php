@@ -15,8 +15,8 @@
         <div class="nav-bar">
             <div class="links">
                 <ul>
-                    <li><a href="http://localhost/wp/wordpress/">Home</li></a></li>
-                    <li><a href="http://localhost/wp/wordpress/57-2/">Quem somos</a></li>
+                    <li><a href="http://localhost/wp/">Home</li></a></li>
+                    <li><a href="http://localhost/wp/quem-somos/">Quem somos</a></li>
                     <li><a>Serviços</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contato</a></li>
