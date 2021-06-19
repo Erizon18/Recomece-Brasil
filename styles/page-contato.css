@@ -1,0 +1,43 @@
+/* ---Página CONTATO--- */
+
+/* ----Banner inicio---- */
+.contato-banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ct-ban{
+    color: white;
+    position: absolute;
+    width: 80%;
+    margin: auto;
+}
+
+.ct-ban h3{
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.ct-ban h4{
+    font-size: 1.75rem;
+    margin-bottom: 3.75rem;
+    font-weight: 500;
+}
+
+.contato-img{
+    position: relative;
+    height: 16rem;
+    overflow: hidden;
+    color: #fff;
+}
+
+.contato-img img{
+    width: 100%;
+    max-height: initial;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    
+    min-width: 1280px;
+}
