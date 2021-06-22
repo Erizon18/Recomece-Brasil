@@ -20,6 +20,7 @@ header .nav-bar .links{
 
     display: flex;
     align-items: center;
+    padding-top: 15px;
 }
 
 header .nav-bar .links ul{

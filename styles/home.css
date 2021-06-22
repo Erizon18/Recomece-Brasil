@@ -1,8 +1,8 @@
 .header-main{
     position: relative;
     overflow: hidden;
-
-    color: #fff;
+    color: #ffffff;
+    padding-top: 0px;
 }
 
 .banner{
@@ -298,7 +298,6 @@ h3 .blue-text{
 }
 
 .duvidas{
-    margin-bottom: 2rem;
     position: relative;
     height: 18rem;
     overflow: hidden;

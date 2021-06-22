@@ -15,11 +15,11 @@
         <div class="nav-bar">
             <div class="links">
                 <ul>
-                    <li><a href="http://localhost/wp/">Home</li></a></li>
-                    <li><a href="http://localhost/wp/quem-somos/">Quem somos</a></li>
-                    <li><a href="http://localhost/wp/servicos/">Serviços</a></li>
+                    <li><a href="http://localhost/wp/wordpress/">Home</li></a></li>
+                    <li><a href="http://localhost/wp/wordpress/quem-somos/">Quem somos</a></li>
+                    <li><a href="http://localhost/wp/wordpress/servicos/">Serviços</a></li>
                     <li><a>Blog</a></li>
-                    <li><a href="http://localhost/wp/contato/">Contato</a></li>
+                    <li><a href="http://localhost/wp/wordpress/contato/">Contato</a></li>
                 </ul>
             </div>
             <div class="fale-conosco">

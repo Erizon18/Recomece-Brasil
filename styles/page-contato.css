@@ -41,3 +41,82 @@
     
     min-width: 1280px;
 }
+
+.contato-h3{
+    font-weight: bold;
+}
+
+.contato-p{
+    font-size: 1rem;
+}
+
+#contato-info{
+    margin-right: 3.125rem;
+    margin-top: 3.125rem;
+}
+
+#cont-valor{
+    margin-top: 1.875rem;
+}
+
+.atuacao{
+    display: flex;
+}
+
+.atuacao>h4{
+    padding-top: 1.25rem;
+    font-size: 1.375rem;
+}
+
+.atuacao>img{
+    margin-right: 1.25rem;
+}
+
+.contato-form{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border-top: none;
+    box-shadow: 0px 0px 10px rgb(233, 232, 232);
+    text-align: justify;
+    padding: 50px 15% 100px 15%;
+    max-width: 660px;
+    margin-top: -3.125rem;
+}
+
+@media (max-width:1199px) {
+    .contato-form{
+        margin-top: 3.125rem;
+    }
+    #contato-info{
+        margin-right: 0px;
+    }
+}
+.contato-form>h4{
+    color: #51a4f1;
+    padding-bottom: 0.625rem;
+}
+
+.contato-form>p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.contato-form>form>input,.contato-form>form>textarea{
+    border-bottom: 3px solid;
+    border-radius: 2px;
+    width: 100%;
+    outline:none;
+    margin-bottom: 3.75rem;
+    color: #51a4f1;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+#form-button>button{
+    width: 15.625rem;
+    height: 3.125rem;
+    float: right;
+    margin: 0px;
+}
