@@ -43,6 +43,8 @@ span p, .nossos-servicos p{
     font-weight: 500;
 }
 
+.reabilitacao-credito h3,
+.bacen h3,
 .nossos-servicos h3{
     margin-bottom: 1.875rem;
 
@@ -57,6 +59,10 @@ span p, .nossos-servicos p{
     font-weight: 700;
 }
 
+.reabilitacao-credito h4, 
+.retirada-apontamentos h4, 
+.restauracao-score h4, 
+.bacen h4,
 .nossos-servicos h4{
     margin-bottom: 1.25rem;
 
@@ -77,7 +83,7 @@ span p, .nossos-servicos p{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .image-container img{
     width: 15rem;
@@ -88,4 +94,19 @@ span p, .nossos-servicos p{
 .reabilitacao-credito .image-container img{
     width: 21rem;
     height: 18rem;
+}
+
+@media(max-width:1200px){
+    .image-container.linha{
+        display: none;
+    }
+
+    .image-container{
+        align-items: flex-start;
+    }
+
+    .image-container img{
+        max-width: 8rem;
+        max-height: 6rem;
+    }
 }
