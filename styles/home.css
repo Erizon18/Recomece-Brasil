@@ -1,3 +1,5 @@
+/* Banner */
+
 .header-main{
     position: relative;
     overflow: hidden;
@@ -5,9 +7,8 @@
     padding-top: 0px;
 }
 
-.banner{
-    width: 80%;
-    margin: auto;
+.bannerh{
+    margin-top:8rem;
     
 }
 
@@ -15,31 +16,34 @@
     width: 100%;
     position: absolute;
     z-index: -1;
+    min-width: 1450px
 }
 
-.banner h3{
+.bannerh h3{
     margin-top: 5rem;
     margin-bottom: 2.25rem;
 
     font-weight: 700;
 }
 
-.banner h4{
+.bannerh h4{
     margin-bottom: 3.75rem;
 
     font-weight: 500;
 }
 
-.banner button{
+.bannerh button{
     margin-bottom: 4rem;
 
     color: #51A4F1;
 }
 
+/* Carrossel */
+
 .carrossel{
-    width: 80%;
     margin: auto;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     border-radius: 1.25rem;
     height: 31rem;
 
@@ -143,9 +147,11 @@
     background-color: #FFF;
 }
 
+/* Noticias */
+
 .news{
-    width: 80%;
     margin: auto;
+    justify-content: center;
 }
 
 h3{
@@ -156,14 +162,6 @@ h3{
 
 h3 .blue-text{
     color: #51A4F1;
-}
-
-.news{
-    margin-top: 3rem;
-}
-
-.news .noticia-area{
-    margin: 0 4.25rem;
 }
 
 .noticia{
@@ -177,15 +175,7 @@ h3 .blue-text{
     display: flex;   
 }
 
-.noticia .news-photo{
-    width: 25rem;
-    height: 15rem;
-}
-
-.noticia .content{
-    padding-left: 4.125rem;
-    padding-right: 2.25rem; 
-
+.noticia .content{ 
     display: flex;
     flex-direction: column;
 
@@ -209,9 +199,7 @@ h3 .blue-text{
 }
 
 .noticia .content p{
-    height: 2.5rem;
     margin-bottom: 2rem;
-    overflow: hidden;
 
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -243,10 +231,12 @@ h3 .blue-text{
     color: #51A4F1;
 }
 
+/* Serviços */
+
 .servicos{
-    width: 80%;
     margin: auto;
     margin-bottom: 5rem;
+    justify-content: center;
 }
 
 .servicos h3{
@@ -256,7 +246,6 @@ h3 .blue-text{
 }
 
 .servicos-area{
-    margin: 0 4.25rem;
     display: flex;
 }
 
@@ -297,6 +286,8 @@ h3 .blue-text{
     text-align: center;
 }
 
+/* Duvidas */
+
 .duvidas{
     position: relative;
     height: 18rem;
@@ -307,7 +298,8 @@ h3 .blue-text{
 
 .duvidas .duvidas-imagem{
     width: 100%;
-    max-height: initial;
+    height: inherit;
+    max-height: inherit;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -335,4 +327,12 @@ h3 .blue-text{
     margin: 2rem auto;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+}
+.duvidas .button button{
+    color: #51A4F1;
+}
+
+.baction:hover, .button .baction:hover{
+    color: #012A52;
 }

@@ -1,7 +1,7 @@
 header{
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header .nav-bar{
@@ -29,7 +29,7 @@ header .nav-bar .links ul{
     align-items: center;
 }
 
-.links ul li a, .header-button{
+.links ul li a{
     margin: 0 1rem;
 }
 
@@ -43,7 +43,6 @@ header .nav-bar .links ul{
     color: #51A4F1;
 }
 
-
 .header-button{
     color: #fff;
     background-color: #51A4F1;
@@ -51,4 +50,10 @@ header .nav-bar .links ul{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: .75rem;
+    margin-left: 1rem;
+}
+
+.header-button:hover{
+    color: #012A52;
+    font-weight: bold;
 }

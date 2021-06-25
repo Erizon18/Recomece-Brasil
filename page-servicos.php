@@ -2,12 +2,14 @@
 <main>
     <header class="header-main">
         <img src="<?php echo get_bloginfo('template_url') ?>/images/servicos/Banner serviços.png" alt="Imagem banner">
-        <div class="banner">
-            <h3>Ser inteligente é planejar</h3>
-            <h4>
-                Sabemos como o mundo juridico funciona e qual a melhor 
-                forma de auxiliar nossos clientes a atingir seus objetivos
-            </h4>
+        <div class="container">
+            <div class="banner">
+                <h3>Ser inteligente é planejar</h3>
+                <h4>
+                    Sabemos como o mundo juridico funciona e qual a melhor 
+                    forma de auxiliar nossos clientes a atingir seus objetivos
+                </h4>
+            </div>
         </div>
     </header>
     <div class="container">

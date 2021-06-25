@@ -6,8 +6,6 @@
 footer{
     padding-top: 5.813rem;
     padding-bottom: 3.5rem;
-    padding-right: 10%;
-    padding-left: 10%;
     width: 100%;
     display: inline-block;
     justify-content: justify;
@@ -46,6 +44,10 @@ footer{
 #top-nav-links ul li a{
     color: white;
     padding-left: 1.75rem;
+}
+
+#top-nav-links ul li a:hover{
+    color: #51A4F1;
 }
 
 #footer-middle{
@@ -88,3 +90,18 @@ footer{
     margin-bottom: 0px;
 }
 
+@media(max-width:1200px){
+    #footer-top-span{
+        display: none;
+    }
+        
+    .others-text{
+        display: none;
+    }
+}
+
+@media(max-width:767px){    
+    .local-text{
+        display: none;
+    }
+}

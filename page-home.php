@@ -1,16 +1,18 @@
 <?php get_header();?>
-<main>
-    <header class="header-main">
+<header class="header-main">
         <img src="<?php echo get_bloginfo('template_url') ?>/images/home/banner1.png" alt="Imagem banner">
-        <div class="banner">
-            <h3>Sejam bem vindos a RECOMECE BRASIL</h3>
-            <h4>Como podemos te ajudar a recomeçar?</h4>
-            <button>Conheça a RECOMECE BRASIL</button>
+        <div class="container">
+            <div class="bannerh">
+                <h3>Sejam bem vindos a RECOMECE BRASIL</h3>
+                <h4>Como podemos te ajudar a recomeçar?</h4>
+                <button class="baction">Conheça a RECOMECE BRASIL</button>
+            </div>
         </div>
     </header>
-    <div class="carrossel-wraper">
+<main class="container">
+    <div class="carrossel-wraper row">
         
-        <div class="carrossel">
+        <div class="carrossel col-xl-12">
             <?php 
 
             $imagens = get_field('imagens');
@@ -36,51 +38,9 @@
             </div>
         </div>
     </div>
-    <div class="news">
-        <h3>Ultimas <span class="blue-text">notícias</span></h3>
-        <div class="noticia-area">
-            <a href="">
-                <div class="noticia">
-                    <img class="news-photo" src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
-                    <div class="content">
-                        <h5 class="news-type">Recomece na mídia</h5>
-                        <h4>Como Recomeçar do zero</h4>
-                        <p>
-                            Hoje nos vamos falar como você pode RECOMEÇAR 
-                            do zero e planejar seu futuro
-                        </p>
-                        <div class="date">
-                            <img class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
-                            <p>05 de junho de 2021</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="noticia-area">
-            <a href="">
-                <div class="noticia">
-                    <image class="news-photo" src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
-                    <div class="content">
-                        <h5 class="news-type">Recomece na mídia</h5>
-                        <h4>Como Recomeçar do zero</h4>
-                        <p>
-                            Hoje nos vamos falar como você pode RECOMEÇAR 
-                            do zero e planejar seu futuro
-                        </p>
-                        <div class="date">
-                            <image class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
-                            <p>05 de junho de 2021</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <h5>Veja nosso <a>blog</a></h5>
-    </div>
-    <div class="servicos">
+    <div class="servicos row">
         <h3>Conheça nossos <span class="blue-text">serviços</span></h3>
-        <div class="servicos-area">
+        <div class="servicos-area col-xl-10">
             <div class="servico">
                 <image class="imagem-servico" src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" alt="Reabilitação de crédito"/>
                 <h4>Reabilitação de crédito</h4>
@@ -101,14 +61,57 @@
             </div>
         </div>
     </div>
-    <div class="duvidas">
+    <div class="news row">
+        <h3>Ultimas <span class="blue-text">notícias</span></h3>
+        <div class="noticia-area col-xl-10">
+            <a href="">
+                <div class="noticia row">
+                    <img class="news-photo col-xl-3" src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
+                    <div class="content col-xl-9">
+                        <h5 class="news-type">Recomece na mídia</h5>
+                        <h4>Como Recomeçar do zero</h4>
+                        <p>
+                            Hoje nos vamos falar como você pode RECOMEÇAR 
+                            do zero e planejar seu futuro
+                        </p>
+                        <div class="date">
+                            <img class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
+                            <p>05 de junho de 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="noticia-area col-xl-10">
+            <a href="">
+                <div class="noticia row">
+                    <image class="news-photo col-xl-3" src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
+                    <div class="content col-xl-9">
+                        <h5 class="news-type">Recomece na mídia</h5>
+                        <h4>Como Recomeçar do zero</h4>
+                        <p>
+                            Hoje nos vamos falar como você pode RECOMEÇAR 
+                            do zero e planejar seu futuro
+                        </p>
+                        <div class="date">
+                            <image class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
+                            <p>05 de junho de 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <h5>Veja nosso <a href="">blog</a></h5>
+    </div> 
+</main>
+<div class="duvidas">
         <img class="duvidas-imagem" src="<?php echo get_bloginfo('template_url') ?>/images/home/bg 1.png" alt="duvidas imagem"/>
         <h4>Ficou com alguma dúvida?</h4>
         <p>Saiba mais sobre os serviços prestados pela nossa empresa</p>
         <div class="button">
-            <button>Veja as dúvidas frequentes</button>
+            <button class="baction">Veja as dúvidas frequentes</button>
         </div>
     </div>
-</main>
 <script src="<?php echo get_bloginfo('template_url') ?>/js/carrossel.js"></script>
 <?php get_footer();

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
+    <div class="container">
     <header>
         <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/logoHeader.svg"/>
         <div class="nav-bar">
@@ -27,3 +28,4 @@
             </div>
         </div>
     </header>
+    </div>
