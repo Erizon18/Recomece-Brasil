@@ -82,7 +82,6 @@
                 </div>
             </a>
         </div>
-
         <div class="noticia-area col-xl-10">
             <a href="">
                 <div class="noticia row">
