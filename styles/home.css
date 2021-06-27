@@ -246,16 +246,8 @@ h3 .blue-text{
     font-weight: 700;
 }
 
-.servicos-area{
-    display: flex;
-}
-
-.servicos-area > :first-child{
-    margin-right: 2rem;
-}
-
 .servico{
-    width: 100%;
+    margin: 0 1rem;
     padding: 1.75rem;
 
     background: #fff;
@@ -337,4 +329,20 @@ h3 .blue-text{
 
 .baction:hover, .button .baction:hover{
     color: #012A52;
+}
+
+@media(max-width: 360px){
+    .noticia .news-photo{
+        max-height: 12rem;
+    }
+}
+
+@media(max-width: 1200px){
+    
+    .duvidas h4{
+        font-size: 1.75rem;
+    }
+    .duvidas p{
+        font-size: 1.25rem;
+    }
 }

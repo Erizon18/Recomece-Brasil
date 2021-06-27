@@ -40,8 +40,8 @@
     </div>
     <div class="servicos row">
         <h3>Conheça nossos <span class="blue-text">serviços</span></h3>
-        <div class="servicos-area col-xl-10">
-            <div class="servico">
+        <div class="servicos-area col-xl-12 row justify-content-center">
+            <div class="servico col-xl-5 mb-sm-3 col-sm-12 col-md-8">
                 <image class="imagem-servico" src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" alt="Reabilitação de crédito"/>
                 <h4>Reabilitação de crédito</h4>
                 <p>
@@ -50,7 +50,7 @@
                     diretamente nos seus limites de crédito.
                 </p>
             </div>
-            <div class="servico">
+            <div class="servico col-xl-5 col-sm-12 col-md-8">
                 <image class="imagem-servico" src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" alt="banco-bacen"/>
                 <h4>BACEN</h4>
                 <p>
@@ -74,7 +74,7 @@
                             Hoje nos vamos falar como você pode RECOMEÇAR 
                             do zero e planejar seu futuro
                         </p>
-                        <div class="date">
+                        <div class="date mb-sm-3">
                             <img class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
                             <p>05 de junho de 2021</p>
                         </div>
@@ -93,7 +93,7 @@
                             Hoje nos vamos falar como você pode RECOMEÇAR 
                             do zero e planejar seu futuro
                         </p>
-                        <div class="date">
+                        <div class="date mb-sm-3">
                             <image class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
                             <p>05 de junho de 2021</p>
                         </div>
