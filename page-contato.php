@@ -3,7 +3,8 @@
     <div class="contato-banner">
         <div class="container">
             <div class="ct-ban">
-                <h3>Como podemos te ajudar a recomeçar?</h3>
+                <h3>Não sabe como sair das dívidas?</h3>
+                <h4>Entre em contato e encontre a solução dos seus problemas.</h4>
             </div>
         </div>
     </div>
@@ -17,7 +18,7 @@
                 <div id="contato-info">
                     <h3><span class="contato-h3">Precisa recomeçar?</span></h3>
                     <p class="contato-p">
-                        Complete o formulário ao lado para te ajudarmos a RECOMEÇAR, auxiliaremos você ou a 
+                        Complete o formulário ao lado para te ajudarmos a <span class="boldblue">RECOMEÇAR</span>, auxiliaremos você ou a 
                         sua empresa a ter a oportunidade de retornar ao circuito financeiro antes mesmo de quitar 
                         suas dívidas.
                     </p>
