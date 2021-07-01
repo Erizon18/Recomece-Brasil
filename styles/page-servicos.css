@@ -9,6 +9,8 @@
 }
 .banner{
     margin-top:10rem;
+    max-width: 500px;
+    min-width: 330px;
 
 }
 

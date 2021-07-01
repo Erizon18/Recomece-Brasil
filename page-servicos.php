@@ -7,7 +7,7 @@
                 <h3>Ser inteligente é planejar</h3>
                 <h4>
                     Sabemos como o mundo juridico funciona e qual a melhor 
-                    forma de auxiliar nossos clientes a atingir seus objetivos
+                    forma de auxiliar nossos clientes a atingir seus objetivos.
                 </h4>
             </div>
         </div>

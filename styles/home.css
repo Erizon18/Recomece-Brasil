@@ -8,8 +8,9 @@
 }
 
 .bannerh{
-    margin-top:8rem;
-    
+    margin-top:6rem;
+    max-width: 430px;
+    min-width: 330px;
 }
 
 .header-main img{
@@ -189,7 +190,7 @@ h3 .blue-text{
     margin-top: 1.5rem;
     margin-bottom: 1.25rem;
 
-    color: #1060AB;
+    color: #51A4F1;
     font-weight: 500;
     font-size: 1.375rem;
 }
