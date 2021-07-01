@@ -40,15 +40,7 @@
             </span>
             <span class="col-sm-12 col-xl-6 image-container">
                 <div class="contato-form">
-                    <form action="" method="get">
-                        <input type="text" name="tNome" id="Nome" placeholder="Seu nome" required=""><br>
-                        <input type="email" name="tEmail" id="Email" required="" placeholder="E-mail"><br>
-                        <input type="tel" name="tNumero" id="Numero" minlength="9" placeholder="Número com DDD" required=""><br>
-                        <textarea name="tMsg" id="cMsg" cols="30" rows="5" placeholder="Sua mensagem" required=""></textarea><br>
-                        <div id="form-button">
-                            <button class="header-button" type="submit" name="tEnviar" id="Enviar">ENTRE EM CONTATO</button>
-                        </div>
-                    </form>
+                <?php echo do_shortcode( '[wpforms id="122"]' ); ?>
                 </div>
             </span>
         </div>
