@@ -1,8 +1,9 @@
 <?php get_header();?>
 <header class="header-main">
-        <img src="<?php echo get_bloginfo('template_url') ?>/images/home/banner1.png" alt="Imagem banner">
+        <img src="<?php echo get_bloginfo('template_url') ?>/images/home/banner1.png" 
+        alt="Imagem banner">
         <div class="container">
-            <div class="bannerh">
+            <div class="banner">
                 <h3>Sejam bem vindos a RECOMECE BRASIL</h3>
                 <h4>Como podemos te ajudar a recomeçar?</h4>
                 <button class="baction">Conheça a RECOMECE BRASIL</button>
@@ -22,7 +23,9 @@
             for($i = 1 ; $i <= 10; $i++):
             if($imagens['imagem_'.$i] != "" && $links['link_'.$i] != ""):?>
                 <a href="<?php echo $links['link_'.$i];?>">
-                    <img class="carrossel-foto initial" src="<?php echo $imagens['imagem_'.$i]['url']?>" alt="Carrossel">
+                    <img class="carrossel-foto initial" 
+                    src="<?php echo $imagens['imagem_'.$i]['url']?>" 
+                    alt="Carrossel">
                 </a>
             <?php $counter++;
             endif;
@@ -42,7 +45,9 @@
         <h3>Conheça nossos <span class="blue-text">serviços</span></h3>
         <div class="servicos-area col-xl-12 row justify-content-center">
             <div class="servico col-xl-5 mb-sm-3 col-sm-12 col-md-8">
-                <image class="imagem-servico" src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" alt="Reabilitação de crédito"/>
+                <image class="imagem-servico" 
+                src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" 
+                alt="Reabilitação de crédito"/>
                 <h4>Reabilitação de crédito</h4>
                 <p>
                     Nosso objetivo neste processo é 
@@ -51,7 +56,10 @@
                 </p>
             </div>
             <div class="servico col-xl-5 col-sm-12 col-md-8">
-                <image class="imagem-servico" src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" alt="banco-bacen"/>
+                <image class="imagem-servico" 
+                src="<?php echo get_bloginfo('template_url') ?>
+                /images/vector.svg" 
+                alt="banco-bacen"/>
                 <h4>BACEN</h4>
                 <p>
                     Atuamos ajuizando processo com o objetivo de excluir as 
@@ -66,7 +74,8 @@
         <div class="noticia-area col-xl-10">
             <a href="">
                 <div class="noticia row">
-                    <img class="news-photo col-xl-3" src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
+                    <img class="news-photo col-xl-3" 
+                    src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
                     <div class="content col-xl-9">
                         <h5 class="news-type">Recomece na mídia</h5>
                         <h4>Como Recomeçar do zero</h4>
@@ -75,7 +84,9 @@
                             do zero e planejar seu futuro
                         </p>
                         <div class="date mb-sm-3">
-                            <img class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
+                            <img class="relogio-icon" 
+                            alt="relogio" 
+                            src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
                             <p>05 de junho de 2021</p>
                         </div>
                     </div>
@@ -85,7 +96,9 @@
         <div class="noticia-area col-xl-10">
             <a href="">
                 <div class="noticia row">
-                    <image class="news-photo col-xl-3" src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
+                    <img class="news-photo col-xl-3" 
+                    src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"
+                    alt="relogio"/>
                     <div class="content col-xl-9">
                         <h5 class="news-type">Recomece na mídia</h5>
                         <h4>Como Recomeçar do zero</h4>
@@ -94,7 +107,9 @@
                             do zero e planejar seu futuro
                         </p>
                         <div class="date mb-sm-3">
-                            <image class="relogio-icon" alt="relogio" src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
+                            <image class="relogio-icon" 
+                            alt="relogio" 
+                            src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
                             <p>05 de junho de 2021</p>
                         </div>
                     </div>
@@ -105,7 +120,9 @@
     </div> 
 </main>
 <div class="duvidas">
-        <img class="duvidas-imagem" src="<?php echo get_bloginfo('template_url') ?>/images/home/bg 1.png" alt="duvidas imagem"/>
+        <img class="duvidas-imagem" 
+        src="<?php echo get_bloginfo('template_url') ?>/images/home/bg 1.png" 
+        alt="duvidas imagem"/>
         <h4>Ficou com alguma dúvida?</h4>
         <p>Saiba mais sobre os serviços prestados pela nossa empresa</p>
         <div class="button">

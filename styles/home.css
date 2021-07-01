@@ -165,7 +165,6 @@ h3 .blue-text{
 }
 
 .noticia{
-    
     margin-bottom: 3rem;
     border-radius: 1.25rem;
     overflow: hidden;
@@ -173,6 +172,10 @@ h3 .blue-text{
     background-color: #fff;
 
     display: flex;   
+}
+
+.noticia .news-photo{
+    padding-right: 0.5rem;
 }
 
 .noticia .content{ 
@@ -208,10 +211,14 @@ h3 .blue-text{
 
 .noticia .content .date{
     display: flex;
-    align-content: center;
+    align-items: center;
     height: 1.5rem;
 
     color: #757575;
+}
+
+.noticia .content .date>p{
+    margin-bottom: 0;
 }
 
 .noticia .content .date .relogio-icon{

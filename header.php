@@ -10,22 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <div class="container">
-    <header>
-        <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/logoHeader.svg"/>
-        <div class="nav-bar">
-            <div class="links">
-                <ul>
-                    <li><a href="http://localhost/wp/">Home</li></a></li>
-                    <li><a href="http://localhost/wp/quem-somos/">Quem somos</a></li>
-                    <li><a href="http://localhost/wp/servicos/">Serviços</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a href="http://localhost/wp/contato/">Contato</a></li>
-                </ul>
+    <div class="nav-header">
+        <header class="container">
+            <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/logoHeader.svg"/>
+            <div class="nav-bar">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://localhost/wp/">Home</li></a></li>
+                        <li><a href="http://localhost/wp/quem-somos/">Quem somos</a></li>
+                        <li><a href="http://localhost/wp/servicos/">Serviços</a></li>
+                        <li><a href="http://localhost/wp/blog/">Blog</a></li>
+                        <li><a href="http://localhost/wp/contato/">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="fale-conosco">
+                    <button class="header-button">Fale com nossos consultores</button>
+                </div>
             </div>
-            <div class="fale-conosco">
-                <button class="header-button">Fale com nossos consultores</button>
-            </div>
-        </div>
-    </header>
+        </header>
     </div>

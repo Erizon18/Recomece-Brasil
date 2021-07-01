@@ -34,4 +34,14 @@ button{
 
 a{
     text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #000;
+}
+
+.row>*{
+    padding: 0;
+    margin: 0;
 }

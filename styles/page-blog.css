@@ -1,0 +1,111 @@
+.nav-header{
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
+}
+
+#blog-novidade,
+.blog-posts .posts-title{
+    font-size: 2.125rem;
+    font-weight: 700;
+
+    color: #51A4F1;
+}
+
+.ultima-noticia{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.ultima-noticia .ultima-noticia-banner{
+    min-height: 40rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.ultima-noticia .banner-container .banner{
+    color: #FFFFFF;
+}
+
+.ultima-noticia .banner-container .informacoes-extras{
+    display: flex;
+    align-items: center;
+}
+
+.ultima-noticia .banner-container .informacoes-extras>*{
+    margin-right: 1rem;
+}
+
+.ultima-noticia .banner-container .informacoes-extras>p{
+    margin-bottom: 0;
+}
+
+.ultima-noticia .banner-container .informacoes-extras img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.blog-posts button{
+    background-color: #EFEFEF;
+}
+
+.blog-posts .filtros{
+    margin-bottom: 4rem;
+}
+
+.blog-posts .filtros #busca{
+    position: relative;
+}
+
+.blog-posts .filtros input{
+    width: 100%;
+    background-color: transparent;
+}
+
+.blog-posts .filtros #busca img{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    z-index: -1;
+
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.blog-posts .filtros .categorias button{
+    font-size: 1.375rem;
+    font-weight: 500;
+
+    
+}
+
+.blog-posts .filtros .categorias button,
+.blog-posts .carrossel-posts button{
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
+}
+
+.blog-posts .posts .post .post-thumbnail{
+    width: 100%;
+    height: 23rem;
+}
+
+.blog-posts .posts .post>h4{
+    max-width: 100%;
+    word-break: break-all;
+    max-height: 4.5rem;
+    overflow: hidden;
+
+    line-height: 2.25rem;
+    font-size: 1.75rem;
+}
+
+.blog-posts .posts .post>p{
+    max-width: 100%;
+    word-break: break-all;
+    max-height: 3.75rem;
+    overflow: hidden;
+
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+
+    color: rgba(0, 0, 0, 0.6);
+}
