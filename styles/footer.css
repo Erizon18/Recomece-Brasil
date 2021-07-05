@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    min-width: 360px;
+}
 footer{
     padding-top: 5.813rem;
     padding-bottom: 3.5rem;
@@ -31,7 +34,7 @@ footer{
 #footer-top-nav{
     padding-top: 0.875rem;
     color: white;
-    min-width: fit-content;
+
 }
 
 #top-nav-links ul{
@@ -42,7 +45,7 @@ footer{
 
 #top-nav-links ul li a{
     color: white;
-    padding-left: 1.75rem;
+    padding-left: 1vw;
 }
 
 #top-nav-links ul li a:hover{
@@ -102,4 +105,16 @@ footer{
     .local-text{
         display: none;
     }
+
+    #footer-top img{
+        width: 40px;
+    }
+
+}
+
+@media(max-width:36=70px){    
+    #footer-top img{
+        display: none;
+    }
+
 }
