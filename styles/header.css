@@ -1,10 +1,15 @@
-header{
+.nav-header-container{
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
+}
+.nav-header{
     padding: 1rem 0 1rem 0;
     display: flex;
     justify-content: space-between;
+
+    
 }
 
-header .nav-bar{
+.nav-header .nav-bar{
     display: flex;
     align-content: center;
     align-items: center;
@@ -15,7 +20,11 @@ header .nav-bar{
     height: 4rem;
 }
 
-header .nav-bar .links{
+.nav-header .menu{
+    display: none;
+}
+
+.nav-header .nav-bar .links{
     border-right: 1px solid #000;
 
     display: flex;
@@ -23,7 +32,7 @@ header .nav-bar .links{
     padding-top: 15px;
 }
 
-header .nav-bar .links ul{
+.nav-header .nav-bar .links ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +40,7 @@ header .nav-bar .links ul{
 
 .links ul li a{
     margin: 0 1rem;
-}
 
-.links ul li a{
     color: black;
     font-weight: 500;
 }
@@ -53,6 +60,75 @@ header .nav-bar .links ul{
 }
 
 .header-button:hover{
-    color: #012A52;
+    color: #fff;
+    background-color: #4f94d4;
     font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .nav-header .nav-header{
+        justify-content: space-between;
+    }
+
+    .nav-header .menu{
+        display: inline-block;
+    }
+
+    .nav-header .menu img{
+        height: 100%;
+    }
+
+    .nav-header .nav-bar{
+        display: none;
+        padding: 1rem;
+        padding-top: 2rem;
+
+        background-color: white;
+
+        position:absolute;
+        left: 0vw;
+        top: 0vh;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        transition: all .3s;
+
+        z-index: 9999;
+    }
+
+    .nav-header .nav-bar.active{
+        display: flex;
+    }
+
+    .nav-header .nav-bar .links ul{
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-header .nav-bar .links{
+        border: none;
+    }
+
+    .nav-header .nav-bar .links ul li{
+        margin: 1rem 0;
+    }
+
+    .nav-header .nav-bar .links ul li a{
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+    .nav-header .nav-bar .fale-conosco{
+        margin-top: 2rem;
+    }
+
+    .nav-header .nav-bar .fale-conosco .header-button{
+        margin-left: 0;
+        max-width: 15rem;
+
+        font-size: 1.25rem;
+    }
 }

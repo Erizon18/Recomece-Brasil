@@ -1,7 +1,3 @@
-.nav-header{
-    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
-}
-
 #blog-novidade,
 .blog-posts .posts-title{
     font-size: 2.125rem;
@@ -101,6 +97,11 @@
     box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
 }
 
+.blog-posts .filtros .categorias a:hover,
+.blog-posts .carrossel-posts button:hover{
+    box-shadow: 0 4px 8px rgba(112, 144, 176, 0.15);
+}
+
 .blog-posts .posts .post .post-thumbnail{
     width: 100%;
     height: 23rem;
@@ -154,6 +155,13 @@
 }
 
 @media(max-width: 576px){
+    .ultima-noticia{
+        height: 30rem;
+    }
+
+    .ultima-noticia .banner{
+        height: 100%;
+    }
     .blog-posts .filtros #busca{
         border-left: none;
     }

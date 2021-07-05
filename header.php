@@ -10,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <div class="nav-header">
-        <header class="container">
+    <div class="nav-header-container">
+        <header class="container nav-header p-3">
             <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/logoHeader.svg"/>
+            <button class="menu"><img src="<?php echo get_bloginfo('template_url') ?>/images/menu-icon.svg" alt="Menu"></button>
             <div class="nav-bar">
                 <div class="links">
                     <ul>

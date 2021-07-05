@@ -21,6 +21,7 @@ add_action('wp_enqueue_scripts', 'css_files');
 function script_files(){
     wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js');
     wp_register_script( 'carrossel', get_template_directory_uri() . '/js/carrossel.js');
+    wp_register_script( 'menu', get_template_directory_uri() . '/js/menu.js');
     wp_enqueue_script('jquery'); 
 }
 

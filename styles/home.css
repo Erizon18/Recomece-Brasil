@@ -7,7 +7,7 @@
     padding-top: 0px;
 }
 
-.bannerh{
+.header-main .banner{
     margin-top:6rem;
     max-width: 430px;
     min-width: 330px;
@@ -16,27 +16,36 @@
 .header-main img{
     width: 100%;
     position: absolute;
+    left: 0vw;
     z-index: -1;
     min-width: 1450px
 }
 
-.bannerh h3{
+.header-main .banner h3{
     margin-top: 5rem;
     margin-bottom: 2.25rem;
 
     font-weight: 700;
 }
 
-.bannerh h4{
+.header-main .banner h4{
     margin-bottom: 3.75rem;
 
     font-weight: 500;
 }
 
-.bannerh button{
+.header-main .banner a{
     margin-bottom: 4rem;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    font-weight: 700;
 
     color: #51A4F1;
+}
+
+.header-main .banner a:hover{
+    color: #012A52;
 }
 
 /* Carrossel */
@@ -328,15 +337,20 @@
     font-size: 1.75rem;
 }
 
-.duvidas .button{
-    
+.duvidas a{
     margin: 2rem auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-.duvidas .button button{
+.duvidas .button a{
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
     color: #51A4F1;
+
+    font-weight: 700;
 }
 
 .baction:hover, .button .baction:hover{

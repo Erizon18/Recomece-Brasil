@@ -72,7 +72,7 @@
         <div class="posts col-12 row">
         <?php $query = new WP_Query($wp_query->query_vars);?>
         <?php if($query->have_posts()): while($query->have_posts()): $query->the_post();?>
-            <span class="px-3 mb-5 col-12 col-xl-4">
+            <span class="px-xl-3 mb-xl-5 col-12 col-xl-4">
                 <a href="<?php the_permalink();?>" class="post">
                     <img src="<?php if(has_post_thumbnail( $post->ID )){
                             echo get_the_post_thumbnail_url($post->ID);

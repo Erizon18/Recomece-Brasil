@@ -6,16 +6,14 @@
             <div class="banner">
                 <h3>Sejam bem vindos a RECOMECE BRASIL</h3>
                 <h4>Como podemos te ajudar a recomeçar?</h4>
-                <button class="baction">Conheça a RECOMECE BRASIL</button>
+                <a class="baction" href="http://localhost/wp/quem-somos/">Conheça a RECOMECE BRASIL</a>
             </div>
         </div>
     </header>
 <main class="container">
     <div class="carrossel-wraper row">
-        
         <div class="carrossel col-xl-12">
             <?php 
-
             $imagens = get_field('imagens');
             $links = get_field('links_do_carrossel');
             $counter = 0;
@@ -44,7 +42,7 @@
         <div class="servicos-area col-xl-12 row justify-content-center">
             <div class="servico col-xl-5 mb-3 col-12 col-md-8">
                 <image class="imagem-servico" 
-                src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" 
+                src="<?php echo get_bloginfo('template_url') ?>/images/servicos/blindagem.svg" 
                 alt="Reabilitação de crédito"/>
                 <h4>Reabilitação de crédito</h4>
                 <p>
@@ -56,7 +54,7 @@
             <div class="servico col-xl-5 col-sm-12 col-md-8">
                 <image class="imagem-servico" 
                 src="<?php echo get_bloginfo('template_url') ?>
-                /images/vector.svg" 
+                /images/servicos/bacen.svg" 
                 alt="banco-bacen"/>
                 <h4>BACEN</h4>
                 <p>
@@ -118,7 +116,7 @@
         <h4>Ficou com alguma dúvida?</h4>
         <p>Saiba mais sobre os serviços prestados pela nossa empresa</p>
         <div class="button">
-            <button class="baction">Veja as dúvidas frequentes</button>
+            <a class="baction" href="http://localhost/wp/fac/">Veja as dúvidas frequentes</a>
         </div>
     </div>
 <script src="<?php echo get_bloginfo('template_url') ?>/js/carrossel.js"></script>
