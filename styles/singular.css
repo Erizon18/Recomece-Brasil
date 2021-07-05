@@ -8,26 +8,57 @@
 }
 
 #post-title h3{
-    margin: 0 0 1.5rem 0;
+    font-weight: bold;
+    margin: 1rem 0 1.5rem 0;
 }
 
 .post-buttons{
     border-bottom: 1px solid #dee2e6;
-    margin: 3rem 0 3rem 0;
-    justify-content: space-evenly;
+    margin: 0rem 0 3rem 0;
+    justify-content: space-around;
     border-top: 1px solid #dee2e6;
+}
+
+.post-share{
+    margin-top: 3rem;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-between;
+    border-top: 1px solid #dee2e6;
+    display: flex;
 }
 
 .post-link{
     background: none;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 0px 20px 0px;
+    min-width: fit-content;
 }
+
 .post-link p{
     margin: 0px;
 }
+
+svg:hover{
+    fill: #51A4F1;
+  }
 
 .post-comment{
     text-align: center;
     margin: 0 0 5rem 0;
 }
 
+.post-redes{
+    width: 1.5rem;
+}
+
+@media(max-width: 480px){
+    .post-title,
+    .post-share
+    {
+        text-align: center;
+    }
+}
+@media(max-width: 767px){
+    .post-link{
+        text-align: center;
+    }
+}

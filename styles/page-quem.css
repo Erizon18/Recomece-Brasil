@@ -38,18 +38,13 @@
 }
 
 /* ----Nossos Valores---- */
-#valores{
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
 
 #valores h3{
     margin: 0px;
     margin-bottom: 3rem;
 }
 
-#valores-caixa{
+.valores-caixa{
     display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -58,8 +53,6 @@
 }
 
 .valor{
-    width: 340px;
-    height: 280px;
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgb(233, 232, 232);
