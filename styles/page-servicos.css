@@ -23,20 +23,16 @@
 .header-main .banner h3{
     margin-top: 5rem;
     margin-bottom: 2.25rem;
-
     font-weight: 700;
 }
 
 .header-main .banner h4{
     margin-bottom: 3.75rem;
-
-    font-size: 1.75rem;
     font-weight: 500;
 }
 
 .header-main .banner button{
     margin-bottom: 4rem;
-
     color: #51A4F1;
 }
 
@@ -56,9 +52,11 @@ span p, .nossos-servicos p{
 
 .blue-text{
     color: #51A4F1;
-
-    font-size: 2.125rem;
     font-weight: 700;
+}
+
+.bold-text{
+    font-weight: bold;
 }
 
 .reabilitacao-credito h4, 
@@ -102,12 +100,14 @@ span p, .nossos-servicos p{
     :root{
         font-size: 12px;
     }
- 
+    .nossos-servicos,
     .reabilitacao-credito, 
     .retirada-apontamentos, 
     .restauracao-score, 
     .bacen,
-    .header-main{
+    .header-main,
+    .contato-banner,
+    .cont-text{
         text-align: center;
     }
 
@@ -128,5 +128,9 @@ span p, .nossos-servicos p{
     .image-container img{
         max-width: 8rem;
         max-height: 6rem;
+    }
+    .historia .image-container img{
+        max-width: 12rem;
+        max-height: 10rem;
     }
 }

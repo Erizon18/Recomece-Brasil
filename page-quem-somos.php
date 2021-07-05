@@ -12,22 +12,22 @@
 
     <div class="container">
         <div class="historia row">
-            <span class="col-sm-12 col-xl-9">
-                <h3>Nossa <span class="blue-text">História</span></h3>
-                <p>Somos uma empresa especializada em reabilitação de crédito. 
+            <span class="col-sm-12 col-xl-8">
+                <h3><span class="bold-text">Nossa</span> <span class="blue-text">História</span></h3>
+                <h5>Somos uma empresa especializada em reabilitação de crédito. 
                 Nesse momento que estamos vivendo, queremos te ajudar na retomada da saúde financeira, 
-                através da exclusão dos apontamentos e da blindagem do seu CPF ou CNPJ.</p>
-                <p>Ter a oportunidade de retornar ao circuito financeiro antes mesmo de quitar as dividas faz 
-                toda a diferença para quem está lutando para <span class="boldblue">RECOMEÇAR.<span></p>
+                através da exclusão dos apontamentos e da blindagem do seu CPF ou CNPJ.</h5>
+                <h5>Ter a oportunidade de retornar ao circuito financeiro antes mesmo de quitar as dividas faz 
+                toda a diferença para quem está lutando para <span class="boldblue">RECOMEÇAR.<span></h5>
                 
             </span>
-            <span class="col-sm-12 col-xl-3 image-container">
+            <span class="col-sm-12 col-xl-4 image-container">
                 <img src="<?php echo get_bloginfo('template_url') ?>/images/quem-somos/hist.svg" alt="historialogo"/>
             </span>
         </div>
     
         <div id="valores row">
-            <h3>Nossos <span class="blue-text">valores</span></h3>
+            <h3><span class="bold-text">Nossos</span> <span class="blue-text">valores</span></h3>
             <div id="valores-caixa">
                 <div class="valor">
                     <img src="<?php echo get_bloginfo('template_url') ?>/images/quem-somos/valor1.svg" alt="historialogo"/>

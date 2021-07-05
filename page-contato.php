@@ -13,14 +13,16 @@
         <img src="<?php echo get_bloginfo('template_url') ?>/images/contato/banner1.svg" alt="quemsomosbanner"/>
     </div>
     <div class="container">
-        <div class="reabilitacao-credito row">
+        <div class="recomeca-contato row">
             <span class="col-sm-12 col-xl-6">
                 <div id="contato-info">
-                    <h3><span class="contato-h3">Precisa recomeçar?</span></h3>
-                    <p class="contato-p">
+                    <div class="cont-text">
+                        <h3><span class="contato-h3">Precisa recomeçar?</span></h3>
+                        <p class="contato-p">
                         Complete o formulário ao lado para te ajudarmos a <span class="boldblue">RECOMEÇAR</span>, auxiliaremos você ou a 
                         sua empresa a ter a oportunidade de retornar ao circuito financeiro antes mesmo de quitar 
                         suas dívidas.
+                    </div>
                     </p>
                     <div id="cont-valor">
                         <div class="atuacao">

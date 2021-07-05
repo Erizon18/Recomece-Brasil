@@ -13,7 +13,7 @@
     <div class="container">
         <div id="perguntasf">
 
-            <h3>Dúvidas <span class="blue-text">Frequentes</span></h3>
+            <h3><span class="bold-text">Dúvidas</span> <span class="blue-text">Frequentes</span></h3>
             <div>
                 <label for="perg">
                     <div class="pergunta">
@@ -22,7 +22,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg" value="perg">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
             
@@ -34,7 +34,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg2" value="perg2">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg3" value="perg3">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg4" value="perg4">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg5" value="perg5">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg6" value="perg6">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
 
@@ -94,7 +94,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg7" value="perg7">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
                 </label>
                 <input type="checkbox" name="perguntafrequente" id="perg8" value="perg8">
                 <div class="resposta">
-                    <p>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
+                    <h5>Sim, o seu Score é uma pontuação referenciada pelo Serasa e, após o processo realizado pela RECOMECE BRASIL o seu Score será restaurado.</p>
                 </div>
             </div>
         </div>
