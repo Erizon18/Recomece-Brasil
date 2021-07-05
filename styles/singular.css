@@ -1,0 +1,33 @@
+/* ----CSS do singular (post único)---- */
+
+#post-title{
+    color: #51A4F1;
+    width: 100%;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 3rem;
+}
+
+#post-title h3{
+    margin: 0 0 1.5rem 0;
+}
+
+.post-buttons{
+    border-bottom: 1px solid #dee2e6;
+    margin: 3rem 0 3rem 0;
+    justify-content: space-evenly;
+    border-top: 1px solid #dee2e6;
+}
+
+.post-link{
+    background: none;
+    padding: 20px 10px 20px 10px;
+}
+.post-link p{
+    margin: 0px;
+}
+
+.post-comment{
+    text-align: center;
+    margin: 0 0 5rem 0;
+}
+

@@ -238,6 +238,10 @@
     color: #51A4F1;
 }
 
+.news h3{
+    margin-bottom: 2rem;
+}
+
 /* Serviços */
 
 .servicos{

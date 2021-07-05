@@ -13,6 +13,7 @@ function css_files() {
     wp_enqueue_style('contato', get_template_directory_uri() . '/styles/page-contato.css');
     wp_enqueue_style('blog', get_template_directory_uri() . '/styles/page-blog.css');
     wp_enqueue_style('fac', get_template_directory_uri() . '/styles/page-fac.css');
+    wp_enqueue_style('singular', get_template_directory_uri() . '/styles/singular.css');
 }
 
 add_action('wp_enqueue_scripts', 'css_files');
