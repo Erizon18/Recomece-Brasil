@@ -13,7 +13,9 @@
     <div class="container">
         <div class="historia row">
             <span class="col-sm-12 col-xl-8">
-                <h3><span class="bold-text">Nossa</span> <span class="blue-text">História</span></h3>
+                <div class="title">
+                    <h3><span class="bold-text">Nossa</span> <span class="blue-text">História</span></h3>
+                </div>
                 <h5>Somos uma empresa especializada em reabilitação de crédito. 
                 Nesse momento que estamos vivendo, queremos te ajudar na retomada da saúde financeira, 
                 através da exclusão dos apontamentos e da blindagem do seu CPF ou CNPJ.</h5>
@@ -27,7 +29,9 @@
         </div>
     
         <div id="valores row">
-            <h3><span class="bold-text">Nossos</span> <span class="blue-text">valores</span></h3>
+            <div class="title">
+                <h3><span class="bold-text">Nossos</span> <span class="blue-text">valores</span></h3>
+            </div>
             <div id="valores-caixa">
                 <div class="valor">
                     <img src="<?php echo get_bloginfo('template_url') ?>/images/quem-somos/valor1.svg" alt="historialogo"/>

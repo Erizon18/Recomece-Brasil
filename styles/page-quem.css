@@ -46,7 +46,7 @@
 
 #valores h3{
     margin: 0px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 #valores-caixa{
@@ -54,6 +54,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .valor{

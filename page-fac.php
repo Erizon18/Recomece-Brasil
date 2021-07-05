@@ -12,8 +12,9 @@
     
     <div class="container">
         <div id="perguntasf">
-
-            <h3><span class="bold-text">Dúvidas</span> <span class="blue-text">Frequentes</span></h3>
+            <div class="title">
+                <h3><span class="bold-text">Dúvidas</span> <span class="blue-text">Frequentes</span></h3>
+            </div>
             <div>
                 <label for="perg">
                     <div class="pergunta">
