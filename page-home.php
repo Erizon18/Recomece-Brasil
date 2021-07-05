@@ -30,8 +30,6 @@
             <?php $counter++;
             endif;
             endfor;?>
-
-        
             <div class="carrossel-button-prev"></div>
             <div class="carrossel-button-next"></div>
             <div class="carrossel-pontos">
@@ -44,7 +42,7 @@
     <div class="servicos row">
         <h3>Conheça nossos <span class="blue-text">serviços</span></h3>
         <div class="servicos-area col-xl-12 row justify-content-center">
-            <div class="servico col-xl-5 mb-sm-3 col-sm-12 col-md-8">
+            <div class="servico col-xl-5 mb-3 col-12 col-md-8">
                 <image class="imagem-servico" 
                 src="<?php echo get_bloginfo('template_url') ?>/images/vector.svg" 
                 alt="Reabilitação de crédito"/>
@@ -70,53 +68,47 @@
         </div>
     </div>
     <div class="news row">
-        <h3>Ultimas <span class="blue-text">notícias</span></h3>
-        <div class="noticia-area col-xl-10">
-            <a href="">
-                <div class="noticia row">
-                    <img class="news-photo col-xl-3" 
-                    src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"/>
-                    <div class="content col-xl-9">
-                        <h5 class="news-type">Recomece na mídia</h5>
-                        <h4>Como Recomeçar do zero</h4>
-                        <p>
-                            Hoje nos vamos falar como você pode RECOMEÇAR 
-                            do zero e planejar seu futuro
-                        </p>
-                        <div class="date mb-sm-3">
-                            <img class="relogio-icon" 
-                            alt="relogio" 
-                            src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
-                            <p>05 de junho de 2021</p>
+        <h3 class="mb-3">Ultimas <span class="blue-text">notícias</span></h3>
+        <?php $posts = get_posts(array('numberposts' => 2));
+        foreach($posts as $post):?>
+            <div class="noticia-area col-xl-10 col-12">
+                <a href="<?php echo $post->guid;?>">
+                    <div class="noticia row">
+                        <img class="news-photo col-xl-3" 
+                        src="<?php if(has_post_thumbnail( $post->ID )){
+                            echo get_the_post_thumbnail_url($post->ID);
+                            }
+                            else{
+                                echo get_template_directory_uri()."/images/logoHeader.svg";
+                            }?>" alt="Noticia thumbnail"/>
+                        <div class="content col-xl-9 ps-5">
+                            <h5 class="news-type"><?php if(count(get_the_category($post->ID)) > 1){
+                                echo get_the_category($post->ID)[1]->name;
+                            }
+                            else{
+                                echo get_the_category($post->ID)[0]->name;
+                            }
+                            ?></h5>
+                            <h4><?php echo $post->post_title;?></h4>
+                            <p>
+                            <?php echo $post->post_excerpt;?>
+                            </p>
+                            <div class="date mb-3">
+                                <img class="relogio-icon" 
+                                alt="relogio" 
+                                src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
+                                <p><?php setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+                                    date_default_timezone_set('America/Sao_Paulo');
+                                    echo strftime('%d de %B de %Y', strtotime($post->post_date));?>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="noticia-area col-xl-10">
-            <a href="">
-                <div class="noticia row">
-                    <img class="news-photo col-xl-3" 
-                    src="<?php echo get_bloginfo('template_url') ?>/images/team meeting.jpg"
-                    alt="relogio"/>
-                    <div class="content col-xl-9">
-                        <h5 class="news-type">Recomece na mídia</h5>
-                        <h4>Como Recomeçar do zero</h4>
-                        <p>
-                            Hoje nos vamos falar como você pode RECOMEÇAR 
-                            do zero e planejar seu futuro
-                        </p>
-                        <div class="date mb-sm-3">
-                            <image class="relogio-icon" 
-                            alt="relogio" 
-                            src="<?php echo get_bloginfo('template_url') ?>/images/relogio.png"/>
-                            <p>05 de junho de 2021</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <h5>Veja nosso <a href="">blog</a></h5>
+                </a>
+            </div>
+        <?php endforeach;?>
+
+        <h5>Veja nosso <a href="http://localhost/wp/category/geral/">blog</a></h5>
     </div> 
 </main>
 <div class="duvidas">

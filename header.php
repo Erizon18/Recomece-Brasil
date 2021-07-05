@@ -19,7 +19,7 @@
                         <li><a href="http://localhost/wp/">Home</li></a></li>
                         <li><a href="http://localhost/wp/quem-somos/">Quem somos</a></li>
                         <li><a href="http://localhost/wp/servicos/">Serviços</a></li>
-                        <li><a href="http://localhost/wp/blog/">Blog</a></li>
+                        <li><a href="http://localhost/wp/category/geral/">Blog</a></li>
                         <li><a href="http://localhost/wp/fac/">FAC</a></li>
                         <li><a href="http://localhost/wp/contato/">Contato</a></li>
                     </ul>

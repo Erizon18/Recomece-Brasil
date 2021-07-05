@@ -7,7 +7,7 @@
 
     color: #fff;
 }
-.banner{
+.header-main .banner{
     margin-top:10rem;
     max-width: 500px;
     min-width: 330px;
@@ -20,21 +20,21 @@
     z-index: -1;
 }
 
-.banner h3{
+.header-main .banner h3{
     margin-top: 5rem;
     margin-bottom: 2.25rem;
 
     font-weight: 700;
 }
 
-.banner h4{
+.header-main .banner h4{
     margin-bottom: 3.75rem;
 
     font-size: 1.75rem;
     font-weight: 500;
 }
 
-.banner button{
+.header-main .banner button{
     margin-bottom: 4rem;
 
     color: #51A4F1;
@@ -96,6 +96,24 @@ span p, .nossos-servicos p{
 .reabilitacao-credito .image-container img{
     width: 21rem;
     height: 18rem;
+}
+
+@media(max-width: 480px){
+    :root{
+        font-size: 12px;
+    }
+ 
+    .reabilitacao-credito, 
+    .retirada-apontamentos, 
+    .restauracao-score, 
+    .bacen,
+    .header-main{
+        text-align: center;
+    }
+
+    .reabilitacao-credito{
+        flex-flow: column-reverse;
+    }
 }
 
 @media(max-width:1200px){

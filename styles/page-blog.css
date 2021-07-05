@@ -14,17 +14,37 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    background-color: #51A4F1;
 }
 
 .ultima-noticia .ultima-noticia-banner{
-    min-height: 40rem;
+    height: 100%;
+    min-height: 20rem;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.ultima-noticia .ultima-noticia-banner.no-thumbnail{
+    height: 80%;
+    width: initial;
+    right: 2vw;
+    top: 5vh;
+    z-index: 0;
 }
 
 .ultima-noticia .banner-container .banner{
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     color: #FFFFFF;
 }
+
+.ultima-noticia .banner-container .banner>*{
+    z-index: 1;
+}
+
 
 .ultima-noticia .banner-container .informacoes-extras{
     display: flex;
@@ -44,16 +64,13 @@
     height: 2rem;
 }
 
-.blog-posts button{
-    background-color: #EFEFEF;
-}
-
 .blog-posts .filtros{
     margin-bottom: 4rem;
 }
 
 .blog-posts .filtros #busca{
     position: relative;
+    border-left: 1px solid #dee2e6;
 }
 
 .blog-posts .filtros input{
@@ -63,7 +80,7 @@
 
 .blog-posts .filtros #busca img{
     position: absolute;
-    right: 1rem;
+    right: 0vw;
     top: 0.5rem;
     z-index: -1;
 
@@ -71,14 +88,15 @@
     height: 1.5rem;
 }
 
-.blog-posts .filtros .categorias button{
+.blog-posts .filtros .categorias a{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #EFEFEF;
     font-size: 1.375rem;
     font-weight: 500;
-
-    
 }
 
-.blog-posts .filtros .categorias button,
+.blog-posts .filtros .categorias a,
 .blog-posts .carrossel-posts button{
     box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
 }
@@ -108,4 +126,35 @@
     font-size: 0.875rem;
 
     color: rgba(0, 0, 0, 0.6);
+}
+
+.blog-posts .carrossel-posts{
+    flex-direction: column;
+}
+
+.blog-posts .carrossel-posts>*{
+    display: inline;
+}
+
+.blog-posts .carrossel-posts a,
+.blog-posts .carrossel-posts .page-numbers{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
+
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.blog-posts .carrossel-posts span.page-numbers{
+    color: #fff;
+    background-color: #51A4F1;
+}
+
+@media(max-width: 576px){
+    .blog-posts .filtros #busca{
+        border-left: none;
+    }
 }
