@@ -12,6 +12,7 @@
     </header>
 <main class="container">
     <div class="carrossel-wraper row">
+    <?php echo do_shortcode('[metaslider id="168"]');?>
         <div class="carrossel col-xl-12">
             <?php 
             $imagens = get_field('imagens');
