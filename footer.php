@@ -11,7 +11,7 @@
                     <div id="top-nav-links">
                         <ul>
                             <li><a href="http://localhost/wp/">Home</a></li>
-                            <li><a href="http://localhost/wp/quem-somos/">Quem somos</a></li>
+                            <li><a href="http://localhost/wp/quem-somos/">QuemSomos</a></li>
                             <li><a href="http://localhost/wp/servicos/">Serviços</a></li>
                             <li><a href="http://localhost/wp/category/geral/">Blog</a></li>
                             <li><a href="http://localhost/wp/fac/">FAC</a></li>

@@ -52,7 +52,7 @@
                     diretamente nos seus limites de crédito.
                 </p>
             </div>
-            <div class="servico col-xl-5 col-sm-12 col-md-8">
+            <div class="servico col-xl-5 mb-3 col-12 col-md-8">
                 <image class="imagem-servico" 
                 src="<?php echo get_bloginfo('template_url') ?>
                 /images/servicos/bacen.svg" 

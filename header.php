@@ -13,7 +13,7 @@
     <div class="nav-header-container">
         <header class="container nav-header p-3">
             <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/logoHeader.svg"/>
-            <button class="menu"><img src="<?php echo get_bloginfo('template_url') ?>/images/menu-icon.svg" alt="Menu"></button>
+            <button class="menu"><img src="<?php echo get_bloginfo('template_url') ?>/images/menu-icon.svg" alt="Menu" width="100%"></button>
             <div class="nav-bar">
                 <div class="links">
                     <ul>
