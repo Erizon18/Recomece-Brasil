@@ -10,12 +10,12 @@
                 <div id="footer-top-nav">
                     <div id="top-nav-links">
                         <ul>
-                            <li><a href="http://localhost/wp/">Home</a></li>
-                            <li><a href="http://localhost/wp/quem-somos/">QuemSomos</a></li>
-                            <li><a href="http://localhost/wp/servicos/">Serviços</a></li>
-                            <li><a href="http://localhost/wp/category/geral/">Blog</a></li>
-                            <li><a href="http://localhost/wp/fac/">FAC</a></li>
-                            <li><a href="http://localhost/wp/contato/">Contato</a></li>
+                        <li><a href="<?php echo get_home_url()?>">Home</li></a></li>
+                        <li><a href="<?php echo get_home_url() . "/quem-somos"?>">Quem somos</a></li>
+                        <li><a href="<?php echo get_home_url() . "/servicos"?>">Serviços</a></li>
+                        <li><a href="<?php echo get_home_url() . "/category/geral"?>">Blog</a></li>
+                        <li><a href="<?php echo get_home_url() . "/fac"?>">FAC</a></li>
+                        <li><a href="<?php echo get_home_url() . "/contato"?>">Contato</a></li>
                         </ul>
                     </div>
                 </div>

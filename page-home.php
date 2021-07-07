@@ -6,7 +6,7 @@
             <div class="banner">
                 <h3>Sejam bem vindos a RECOMECE BRASIL</h3>
                 <h4>Como podemos te ajudar a recomeçar?</h4>
-                <a class="baction" href="http://localhost/wp/quem-somos/">Conheça a RECOMECE BRASIL</a>
+                <a class="baction" href="<?php echo get_home_url() . "/quem-somos"?>">Conheça a RECOMECE BRASIL</a>
             </div>
         </div>
     </header>
@@ -107,7 +107,7 @@
             </div>
         <?php endforeach;?>
 
-        <h5>Veja nosso <a href="http://localhost/wp/category/geral/">blog</a></h5>
+        <h5>Veja nosso <a href="<?php echo get_home_url() . "/category/geral"?>">blog</a></h5>
     </div> 
 </main>
 <div class="duvidas">
@@ -117,7 +117,7 @@
         <h4>Ficou com alguma dúvida?</h4>
         <p>Saiba mais sobre os serviços prestados pela nossa empresa</p>
         <div class="button">
-            <a class="baction" href="http://localhost/wp/fac/">Veja as dúvidas frequentes</a>
+            <a class="baction" href="<?php echo get_home_url() . "/fac"?>">Veja as dúvidas frequentes</a>
         </div>
     </div>
 <script src="<?php echo get_bloginfo('template_url') ?>/js/carrossel.js"></script>

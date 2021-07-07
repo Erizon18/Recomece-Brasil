@@ -53,10 +53,10 @@
         <div class="filtros col-12 row justify-content-around 
         align-items-center border-bottom pb-3">
             <span class="categorias col-xl-8 col-12 mb-3 mb-sm-0 flex-column">
-                <a href="http://localhost/wp/category/geral/" class="px-5 px-xl-3 py-2 me-3 mb-3">Geral</a>
-                <a href="http://localhost/wp/category/dicas/" class="px-5 px-xl-3 py-2 me-3 mb-3">Dicas</a>
-                <a href="http://localhost/wp/category/entrevistas/" class="px-5 px-xl-3 py-2 me-3 mb-3">Entrevistas</a>
-                <a href="http://localhost/wp/category/midia/" class="px-5 px-xl-3 py-2 me-3 mb-3">RECOMECE na mídia</a>
+                <a href="<?php echo get_home_url() . "/category/geral"?>" class="px-5 px-xl-3 py-2 me-3 mb-3">Geral</a>
+                <a href="<?php echo get_home_url() . "/category/dicas"?>" class="px-5 px-xl-3 py-2 me-3 mb-3">Dicas</a>
+                <a href="<?php echo get_home_url() . "/category/entrevistas"?>" class="px-5 px-xl-3 py-2 me-3 mb-3">Entrevistas</a>
+                <a href="<?php echo get_home_url() . "/category/midia"?>" class="px-5 px-xl-3 py-2 me-3 mb-3">RECOMECE na mídia</a>
             </span>
             <span id="busca" class="col-xl-4 col-12 ps-xl-3">
                 <form action="http://localhost/wp/category/geral/" method="GET" id="searchform">
