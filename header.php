@@ -26,7 +26,7 @@
                     </ul>
                 </div>
                 <div class="fale-conosco">
-                    <button class="header-button">Fale com nossos consultores</button>
+                    <a href="<?php echo get_home_url() . "/contato"?>"><button class="header-button">Fale com nossos consultores</button></a>
                 </div>
             </div>
         </header>

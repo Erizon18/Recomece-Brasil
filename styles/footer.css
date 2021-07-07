@@ -45,7 +45,7 @@ footer{
 
 #top-nav-links ul li a{
     color: white;
-    padding-left: 1vw;
+    padding-left: 2vw;
 }
 
 #top-nav-links ul li a:hover{
@@ -112,9 +112,8 @@ footer{
 
 }
 
-@media(max-width:36=70px){    
+@media(max-width:500px){    
     #footer-top img{
         display: none;
-    }
-
+}
 }
