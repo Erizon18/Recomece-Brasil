@@ -29,7 +29,7 @@
         <div class="reabilitacao-credito row">
             <span class="col-sm-10 col-xl-6">
                 <h3><span class="blue-text">Reabilitação de crédito</span></h3>
-                <h4>Blindagem</h4>
+                <h4 id="blindagem">Blindagem</h4>
                 <p>
                     A Blindagem possui amparo legal, e garante ao consmidos
                     um BLOQUEIO de futuras negativações pelo periodo de 12 
@@ -46,7 +46,7 @@
                 <img src="<?php echo get_bloginfo('template_url') ?>/images/servicos/linhas 1.svg" alt="Linhas">
             </span>
             <span class="col-sm-12 col-xl-6">
-                <h4>Retirada de apontamentos</h4>
+                <h4 id="retirada-apontamentos">Retirada de apontamentos</h4>
                 <p>
                     A negativação do CPF ou CNPJ nos órgãos de proteção ao 
                     crédito só poderá ser realizada se obedecidos alguns requisitos 
@@ -60,7 +60,7 @@
         </div>
         <div class="restauracao-score row">
             <span class="col-sm-12 col-xl-6">
-                <h4>Restauração de Score</h4>
+                <h4 id="restauracao-score">Restauração de Score</h4>
                 <p>O Serasa Score é o principal fator analisado por instituições 
                     financeiras, bancos e lojistas antes de concessão  de crédito. 
                     Por meio de pontuação, que vai de 0 a 1000, ele influencia 

@@ -149,7 +149,7 @@
     font-weight: 500;
 }
 
-.blog-posts .carrossel-posts span.page-numbers{
+.blog-posts .carrossel-posts span.page-numbers.current{
     color: #fff;
     background-color: #51A4F1;
 }

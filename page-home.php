@@ -12,30 +12,99 @@
     </header>
 <main class="container">
     <div class="carrossel-wraper row">
-    <?php echo do_shortcode('[metaslider id="168"]');?>
         <div class="carrossel col-xl-12">
             <?php 
-            $imagens = get_field('imagens');
-            $links = get_field('links_do_carrossel');
-            $counter = 0;
-            
-            for($i = 1 ; $i <= 10; $i++):
-            if($imagens['imagem_'.$i] != "" && $links['link_'.$i] != ""):?>
-                <a href="<?php echo $links['link_'.$i];?>">
-                    <img class="carrossel-foto initial" 
-                    src="<?php echo $imagens['imagem_'.$i]['url']?>" 
-                    alt="Carrossel">
+            $imagem = get_field('imagem');
+            $link = get_field('link_do_carrossel');
+            $titulo = get_field('titulo');
+            $texto = get_field('texto');
+            ?>
+            <ul class="owl-carousel owl-theme carousel-home">
+                <?php if($imagem):?>
+                <a href="<?php echo $link;?>">
+                    <li class="item">
+                        <img src="<?php echo $imagem['url'];?>" alt="Promoção"/>
+                        <span class="informacoes promocao row">
+                            <h4 class="col-6 ms-5 mb-3"><?php echo $titulo;?></h4>
+                            <p class="col-6 ms-5 mb-3"><?php echo $texto;?></p>
+                            
+                            
+                        </span>
+                    </li>
                 </a>
-            <?php $counter++;
-            endif;
-            endfor;?>
-            <div class="carrossel-button-prev"></div>
-            <div class="carrossel-button-next"></div>
-            <div class="carrossel-pontos">
-            <?php for($i = 0; $i < $counter; $i++):?>
-                <div class="carrossel-ponto"></div>
-            <?php endfor;?>
-            </div>
+                <?php endif;?>
+                <li class="item row">
+                    <img src="<?php echo get_bloginfo('template_url').
+                            "/images/home/Carrossel 1.png";?>" 
+                            alt="Promoção">
+                    <span class="informacoes">
+                        <h4 class="col-6 ms-5 mb-5">
+                            Em tempos difíceis, não perca o seu crédito. Blindamos 
+                            seu CPF ou CNPJ.
+                        </h4>
+                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#blindagem"?>">
+                            <button>Saiba mais</button>
+                        </a>
+                    </span>
+                </li>
+                <li class="item row">
+                    <img src="<?php echo get_bloginfo('template_url').
+                            "/images/home/Carrossel 2.png";?>" 
+                            alt="Promoção">
+                    <span class="informacoes">
+                        <h4 class="col-6 ms-5 mb-5">
+                            Temos a solução para você que está negativado e quer 
+                            voltar a ter crédito.
+                        </h4>
+                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
+                            <button>Saiba mais</button>
+                        </a>
+                    </span>
+                </li>
+                <li class="item row">
+                    <img src="<?php echo get_bloginfo('template_url').
+                            "/images/home/Carrossel 3.png";?>" 
+                            alt="Promoção">
+                    <span class="informacoes">
+                        <h4 class="col-6 ms-5 mb-5">
+                            Podemos te ajudar a ter aquele cartão de crédito com o 
+                            limite tão sonhado.
+                        </h4>
+                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#restauracao-score"?>">
+                            <button>Saiba mais</button>
+                        </a>
+                    </span>
+                </li>
+                <li class="item row">
+                    <img src="<?php echo get_bloginfo('template_url').
+                            "/images/home/Carrossel 4.png";?>" 
+                            alt="Promoção">
+                    <span class="informacoes">
+                        <h4 class="col-6 ms-5 mb-5">
+                            Retome o crédito junto aos seus fornecedores.
+                        </h4>
+                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
+                            <button>Saiba mais</button>
+                        </a>
+                    </span>
+                </li>
+                <li class="item row">
+                    <img src="<?php echo get_bloginfo('template_url').
+                            "/images/home/Carrossel 5.png";?>" 
+                            alt="Promoção">
+                    <span class="informacoes">
+                        <h3 class="col-6 ms-5 mb-5">Clientes Satisfeitos</h3>
+                        <h4 class="col-6 ms-5 mb-5">
+                            Ajudamos milhares de clientes a 
+                            recuperarem o crédito.
+                        </h4>
+                        <p class="col-6 ms-5">
+                            Garantimos a entrega do serviço ou devolvemos 
+                            o dinheiro com acréscimo de 10%.
+                        </p>
+                    </span>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="servicos row">
@@ -120,5 +189,9 @@
             <a class="baction" href="<?php echo get_home_url() . "/fac"?>">Veja as dúvidas frequentes</a>
         </div>
     </div>
-<script src="<?php echo get_bloginfo('template_url') ?>/js/carrossel.js"></script>
+    <script src="<?php echo get_template_directory_uri("home") . "/js/jquery.min.js"?>"></script>
+    <script src="<?php echo get_template_directory_uri("home") . "/js/owl.carousel.min.js"?>"></script>
+    <script src="<?php echo get_template_directory_uri("home") . "/js/main.js"?>"></script>
+
+
 <?php get_footer();
