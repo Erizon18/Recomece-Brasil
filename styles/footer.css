@@ -93,17 +93,18 @@ footer{
 
 @media(max-width:1200px){
     #footer-top-span{
+        display: none;
         
     }
         
     .others-text{
-        
+        display: none;
     }
 }
 
 @media(max-width:767px){    
     .local-text{
-        
+        display: none;
     }
 
     #footer-top img{
@@ -130,6 +131,7 @@ footer{
 
     #footer-top #footer-top-span{
         padding-left: 0px;
+        display: initial;
     }
 
     #footer-top #footer-top-span span{
@@ -182,6 +184,7 @@ footer{
 
     #footer-middle .redes .local-text{
         width: 100%;
+        display: initial;
     }
 
     #footer-middle .redes .others-text{
