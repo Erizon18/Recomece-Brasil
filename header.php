@@ -17,7 +17,7 @@
             <div class="nav-bar">
                 <div class="links">
                     <ul>
-                        <li><a href="<?php echo get_home_url()?>">Home</li></a></li>
+                        <li><a href="<?php echo get_home_url()?>">Home</a></li>
                         <li><a href="<?php echo get_home_url() . "/quem-somos"?>">Quem somos</a></li>
                         <li><a href="<?php echo get_home_url() . "/servicos"?>">Serviços</a></li>
                         <li><a href="<?php echo get_home_url() . "/category/geral"?>">Blog</a></li>

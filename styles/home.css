@@ -62,16 +62,19 @@
     position: relative;
 
     height: 30vw;
+    min-height: 210px;
 }
 
 .owl-carousel .item img{
     position: absolute;
-    height: 100%;
+    width: 100%;
+    min-width: 500px;
     z-index: -1;
 }
 
 .owl-carousel .item .informacoes{
     margin-top: 5%;
+    height: min-content;
 }
 
 .owl-carousel .item .informacoes.promocao{
@@ -81,20 +84,20 @@
 
 .owl-carousel .item h3{
     color: white;
-    font-size: 2.125rem;
+    font-size: calc(1rem + .6vw);
     font-weight: 700;
 }
 
 .owl-carousel .item h4{
     color: white;
-    font-size: 1.75rem;
+    font-size: calc(1rem + .4vw);
     font-weight: 500;
 }
 
 
 .owl-carousel .item p{
     color: white;
-    font-size: 1.25rem;
+    font-size: calc(1rem + .2vw);
     font-weight: 500;
 }
 
@@ -331,7 +334,7 @@
     }
 
     .owl-carousel .item{
-        height: 30rem;
+        height: 30vw;
     }
 
     .servicos h3{
@@ -362,4 +365,18 @@
     .duvidas p{
         font-size: 1.25rem;
     }
+}
+
+@media (max-width:767px) {
+    .owl-carousel .item p{
+        font-size: 1.5vw;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .owl-carousel .item p{
+        font-size: 2.5vw;
+    }
+    
 }

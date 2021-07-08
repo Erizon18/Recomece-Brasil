@@ -40,10 +40,10 @@
                     <span class="informacoes">
                         <h4 class="col-6 ms-5 mb-5">
                             Em tempos difíceis, não perca o seu crédito. Blindamos 
-                            seu CPF ou CNPJ.
+                            seu CPF/CNPJ.
                         </h4>
                         <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#blindagem"?>">
-                            <button>Saiba mais</button>
+                            <button>Saiba mais sobre</button>
                         </a>
                     </span>
                 </li>
@@ -57,7 +57,7 @@
                             voltar a ter crédito.
                         </h4>
                         <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
-                            <button>Saiba mais</button>
+                            <button>Saiba mais sobre</button>
                         </a>
                     </span>
                 </li>
@@ -71,7 +71,7 @@
                             limite tão sonhado.
                         </h4>
                         <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#restauracao-score"?>">
-                            <button>Saiba mais</button>
+                            <button>Saiba mais sobre</button>
                         </a>
                     </span>
                 </li>
@@ -84,7 +84,7 @@
                             Retome o crédito junto aos seus fornecedores.
                         </h4>
                         <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
-                            <button>Saiba mais</button>
+                            <button>Saiba mais sobre</button>
                         </a>
                     </span>
                 </li>
@@ -93,8 +93,8 @@
                             "/images/home/Carrossel 5.png";?>" 
                             alt="Promoção">
                     <span class="informacoes">
-                        <h3 class="col-6 ms-5 mb-5">Clientes Satisfeitos</h3>
-                        <h4 class="col-6 ms-5 mb-5">
+                        <h3 class="col-6 ms-5 mb-4">Clientes Satisfeitos</h3>
+                        <h4 class="col-6 ms-5 mb-4">
                             Ajudamos milhares de clientes a 
                             recuperarem o crédito.
                         </h4>
