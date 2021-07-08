@@ -93,17 +93,17 @@ footer{
 
 @media(max-width:1200px){
     #footer-top-span{
-        display: none;
+        
     }
         
     .others-text{
-        display: none;
+        
     }
 }
 
 @media(max-width:767px){    
     .local-text{
-        display: none;
+        
     }
 
     #footer-top img{
@@ -112,8 +112,91 @@ footer{
 
 }
 
-@media(max-width:500px){    
+@media(max-width:576px){  
+    #main-footer{
+        padding: 1rem 1.5rem;
+    }
+    
+    #footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
     #footer-top img{
-        display: none;
-}
+        margin: 0 auto;
+    }
+
+    #footer-top #footer-top-span{
+        padding-left: 0px;
+    }
+
+    #footer-top #footer-top-span span{
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    #footer-top #top-nav-links ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    #footer-top #top-nav-links ul li{
+        width: 50%;
+        font-size: 1.83rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        text-align: start;
+    }
+
+    #footer-top #top-nav-links ul li a{
+        padding-left: 0;
+    }
+
+    #footer-middle{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1.5rem 0;
+        padding-top: 1rem;
+    }
+
+    #footer-middle .redes{
+        width: 100%;
+    }
+
+    #footer-middle .redes{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    #footer-middle .redes.only-icon{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer-middle .redes .local-text{
+        width: 100%;
+    }
+
+    #footer-middle .redes .others-text{
+        padding-top: 0;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #footer-middle .redes .others-text span{
+        vertical-align: middle;
+    }
+
+    #footer-bottom{
+        padding-top: 2rem;
+    }
 }

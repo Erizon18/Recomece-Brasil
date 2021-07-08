@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recomece Brasil</title>
     <?php wp_head();?>
+    <link rel="icon" href="<?php echo get_bloginfo('template_url')?>/images/logo_white.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
 </head>
@@ -17,7 +18,7 @@
             <div class="nav-bar">
                 <div class="links">
                     <ul>
-                        <li><a href="<?php echo get_home_url()?>">Home</li></a></li>
+                        <li><a href="<?php echo get_home_url()?>">Home</a></li>
                         <li><a href="<?php echo get_home_url() . "/quem-somos"?>">Quem somos</a></li>
                         <li><a href="<?php echo get_home_url() . "/servicos"?>">Serviços</a></li>
                         <li><a href="<?php echo get_home_url() . "/category/geral"?>">Blog</a></li>

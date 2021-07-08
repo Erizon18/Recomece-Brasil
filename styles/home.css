@@ -62,16 +62,19 @@
     position: relative;
 
     height: 30vw;
+    min-height: 210px;
 }
 
 .owl-carousel .item img{
     position: absolute;
-    height: 100%;
+    width: 100%;
+    min-width: 500px;
     z-index: -1;
 }
 
 .owl-carousel .item .informacoes{
     margin-top: 5%;
+    height: min-content;
 }
 
 .owl-carousel .item .informacoes.promocao{
@@ -81,25 +84,25 @@
 
 .owl-carousel .item h3{
     color: white;
-    font-size: 2.125rem;
+    font-size: calc(1rem + .6vw);
     font-weight: 700;
 }
 
 .owl-carousel .item h4{
     color: white;
-    font-size: 1.75rem;
+    font-size: calc(1rem + .4vw);
     font-weight: 500;
 }
 
 
 .owl-carousel .item p{
     color: white;
-    font-size: 1.25rem;
+    font-size: calc(1rem + .2vw);
     font-weight: 500;
 }
 
 .owl-carousel .item button{
-    margin-top: 10rem;
+    margin-top: 15%;
     padding: 1.5rem 5rem;
 
     color: #51A4F1;
@@ -336,26 +339,11 @@
     }
 
     .owl-carousel .item{
-        height: 25rem;
-    }
-
-    .owl-carousel .item .informacoes h3{
-        font-size: 1.75rem;
-    }
-
-    .owl-carousel .item .informacoes h4{
-        font-size: 1.5rem;
-    }
-
-    .owl-carousel .item .informacoes p{
-        font-size: 1rem;
+        height: 30vw;
     }
 
     .owl-carousel .item button{
-        margin-top: 8rem;
         padding: 1rem 3rem;
-
-        font-size: 1.5rem;
     }
 
     .servicos h3{
@@ -377,6 +365,12 @@
     }
 }
 
+@media (max-width: 1024px){
+    .owl-carousel .item{
+        height: 40vw;
+    }
+}
+
 @media(max-width: 1200px){
 
     .duvidas h4{
@@ -386,4 +380,18 @@
     .duvidas p{
         font-size: 1.25rem;
     }
+}
+
+@media (max-width:767px) {
+    .owl-carousel .item p{
+        font-size: 1.5vw;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .owl-carousel .item p{
+        font-size: 2.5vw;
+    }
+    
 }

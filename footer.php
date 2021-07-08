@@ -1,6 +1,6 @@
 <?php wp_footer();?>
 <body>
-    <footer>
+    <footer id="main-footer">
         <div class="container">
             <div id="footer-top">
                 <image class="logo" alt="logo" src="<?php echo get_bloginfo('template_url') ?>/images/footer/logoFooter.svg"/>
@@ -10,12 +10,12 @@
                 <div id="footer-top-nav">
                     <div id="top-nav-links">
                         <ul>
-                        <li><a href="<?php echo get_home_url()?>">Home</li></a></li>
-                        <li><a href="<?php echo get_home_url() . "/quem-somos"?>">Quem somos</a></li>
-                        <li><a href="<?php echo get_home_url() . "/servicos"?>">Serviços</a></li>
-                        <li><a href="<?php echo get_home_url() . "/category/geral"?>">Blog</a></li>
-                        <li><a href="<?php echo get_home_url() . "/fac"?>">FAC</a></li>
-                        <li><a href="<?php echo get_home_url() . "/contato"?>">Contato</a></li>
+                            <li><a href="<?php echo get_home_url()?>">Home</li></a></li>
+                            <li><a href="<?php echo get_home_url() . "/quem-somos"?>">Quem somos</a></li>
+                            <li><a href="<?php echo get_home_url() . "/servicos"?>">Serviços</a></li>
+                            <li><a href="<?php echo get_home_url() . "/category/geral"?>">Blog</a></li>
+                            <li><a href="<?php echo get_home_url() . "/fac"?>">FAC</a></li>
+                            <li><a href="<?php echo get_home_url() . "/contato"?>">Contato</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="redes">
+                <div class="redes only-icon">
                     <div class="redes-img">
                         <a href="https://api.whatsapp.com/send?phone=5585992026181&text=Ol%C3%A1%2C%20n%C3%B3s%20somos%20a%20Recomece%20Brasil!%20/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="#ffffff" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="redes">
+                <div class="redes only-icon">
                     <div class="redes-img">
                         <a href="https://www.instagram.com/recomecebrasil/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="#ffffff" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <div class="redes">
+                <div class="redes only-icon">
                     <div class="redes-img">
                         <a href="https://www.facebook.com/Recomece-Brasil-103452444686831/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="#ffffff" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="redes">
+                <div class="redes only-icon">
                     <div class="redes-img">
                         <a href="https://br.linkedin.com/company/recomecebrasil">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="#ffffff" class="bi bi-linkedin" viewBox="0 0 16 16">

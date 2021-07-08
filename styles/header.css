@@ -101,7 +101,12 @@
         display: flex;
     }
 
+    .nav-header .nav-bar .links{
+        width: 100%;
+    }
+
     .nav-header .nav-bar .links ul{
+        width: 100%;
         align-items: flex-start;
         flex-direction: column;
         padding: 0;
@@ -113,12 +118,24 @@
     }
 
     .nav-header .nav-bar .links ul li{
-        margin: 1rem 0;
+        width: 100%;
+        padding: 1rem 0;
+        border-bottom: 1px solid #C4C4C4;
+    }
+
+    .nav-header .nav-bar .links ul li:active{
+        background-color: #51A4F1; 
     }
 
     .nav-header .nav-bar .links ul li a{
+        width: 100%;
         margin: 0;
         font-size: 1.25rem;
+        width: 100%;
+    }
+
+    .nav-header .nav-bar .links ul li a:active{
+        color: white;
     }
 
     .nav-header .nav-bar .fale-conosco{
