@@ -25,10 +25,8 @@
                     <li class="item">
                         <img src="<?php echo $imagem['url'];?>" alt="Promoção"/>
                         <span class="informacoes promocao row">
-                            <h4 class="col-6 ms-5 mb-3"><?php echo $titulo;?></h4>
-                            <p class="col-6 ms-5 mb-3"><?php echo $texto;?></p>
-                            
-                            
+                            <h4 class="col-6 ms-xl-5 ms-3 mb-xl-5 mb-3"><?php echo $titulo;?></h4>
+                            <p class="col-6 ms-xl-5 ms-3"><?php echo $texto;?></p>
                         </span>
                     </li>
                 </a>
@@ -38,11 +36,11 @@
                             "/images/home/Carrossel 1.png";?>" 
                             alt="Promoção">
                     <span class="informacoes">
-                        <h4 class="col-6 ms-5 mb-5">
+                        <h4 class="col-6 ms-xl-5 ms-3">
                             Em tempos difíceis, não perca o seu crédito. Blindamos 
                             seu CPF ou CNPJ.
                         </h4>
-                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#blindagem"?>">
+                        <a class="ms-xl-5 ms-3" href="<?php echo get_home_url() . "/servicos/#blindagem"?>">
                             <button>Saiba mais</button>
                         </a>
                     </span>
@@ -52,11 +50,11 @@
                             "/images/home/Carrossel 2.png";?>" 
                             alt="Promoção">
                     <span class="informacoes">
-                        <h4 class="col-6 ms-5 mb-5">
+                        <h4 class="col-6 ms-xl-5 ms-3">
                             Temos a solução para você que está negativado e quer 
                             voltar a ter crédito.
                         </h4>
-                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
+                        <a class="ms-xl-5 ms-3" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
                             <button>Saiba mais</button>
                         </a>
                     </span>
@@ -66,11 +64,11 @@
                             "/images/home/Carrossel 3.png";?>" 
                             alt="Promoção">
                     <span class="informacoes">
-                        <h4 class="col-6 ms-5 mb-5">
+                        <h4 class="col-6 ms-xl-5 ms-3">
                             Podemos te ajudar a ter aquele cartão de crédito com o 
                             limite tão sonhado.
                         </h4>
-                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#restauracao-score"?>">
+                        <a class="ms-xl-5 ms-3" href="<?php echo get_home_url() . "/servicos/#restauracao-score"?>">
                             <button>Saiba mais</button>
                         </a>
                     </span>
@@ -80,10 +78,10 @@
                             "/images/home/Carrossel 4.png";?>" 
                             alt="Promoção">
                     <span class="informacoes">
-                        <h4 class="col-6 ms-5 mb-5">
+                        <h4 class="col-6 ms-xl-5 ms-3">
                             Retome o crédito junto aos seus fornecedores.
                         </h4>
-                        <a class="ms-5" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
+                        <a class="ms-xl-5 ms-3" href="<?php echo get_home_url() . "/servicos/#retirada-apontamentos"?>">
                             <button>Saiba mais</button>
                         </a>
                     </span>
@@ -93,12 +91,12 @@
                             "/images/home/Carrossel 5.png";?>" 
                             alt="Promoção">
                     <span class="informacoes">
-                        <h3 class="col-6 ms-5 mb-5">Clientes Satisfeitos</h3>
-                        <h4 class="col-6 ms-5 mb-5">
+                        <h3 class="col-6 ms-xl-5 ms-3 mb-xl-5 mb-3">Clientes Satisfeitos</h3>
+                        <h4 class="col-6 ms-xl-5 ms-3 mb-xl-5 mb-3">
                             Ajudamos milhares de clientes a 
                             recuperarem o crédito.
                         </h4>
-                        <p class="col-6 ms-5">
+                        <p class="col-6 ms-xl-5 ms-3">
                             Garantimos a entrega do serviço ou devolvemos 
                             o dinheiro com acréscimo de 10%.
                         </p>

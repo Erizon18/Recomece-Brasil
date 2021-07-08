@@ -99,7 +99,12 @@
 }
 
 .owl-carousel .item button{
+    margin-top: 10rem;
+    padding: 1.5rem 5rem;
+
     color: #51A4F1;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .carrossel-pontos{
@@ -331,7 +336,26 @@
     }
 
     .owl-carousel .item{
-        height: 30rem;
+        height: 25rem;
+    }
+
+    .owl-carousel .item .informacoes h3{
+        font-size: 1.75rem;
+    }
+
+    .owl-carousel .item .informacoes h4{
+        font-size: 1.5rem;
+    }
+
+    .owl-carousel .item .informacoes p{
+        font-size: 1rem;
+    }
+
+    .owl-carousel .item button{
+        margin-top: 8rem;
+        padding: 1rem 3rem;
+
+        font-size: 1.5rem;
     }
 
     .servicos h3{
