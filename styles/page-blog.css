@@ -134,7 +134,7 @@
 }
 
 .blog-posts .carrossel-posts>*{
-    display: inline;
+    display: inline-block;
 }
 
 .blog-posts .carrossel-posts a,

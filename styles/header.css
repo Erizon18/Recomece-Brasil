@@ -132,6 +132,7 @@
         margin: 0;
         font-size: 1.25rem;
         width: 100%;
+        display: inline-block;
     }
 
     .nav-header .nav-bar .links ul li a:active{
