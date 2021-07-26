@@ -1,6 +1,6 @@
 <?php get_header();?>
 <header class="header-main">
-        <img src="<?php echo get_bloginfo('template_url') ?>/images/home/banner1.png" 
+        <img src="<?php echo get_bloginfo('template_url') ?>/images/home/Banner1.png" 
         alt="Imagem banner">
         <div class="container">
             <div class="banner">
@@ -121,8 +121,7 @@
             </div>
             <div class="servico col-xl-5 mb-3 col-12 col-md-8">
                 <image class="imagem-servico" 
-                src="<?php echo get_bloginfo('template_url') ?>
-                /images/servicos/bacen.svg" 
+                src="<?php echo get_bloginfo('template_url') ?>/images/servicos/bacen.svg" 
                 alt="banco-bacen"/>
                 <h4>BACEN</h4>
                 <p>
